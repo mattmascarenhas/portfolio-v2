@@ -22,7 +22,7 @@ export function Experiencia() {
                 React
               </div>
               <div className="w-fit h-fit px-1 py-1 m-1 border border-grayLight rounded text-white dark:text-grayLight font-Inter font-medium font-sm bg-[#2c3333]">
-                Noje.js
+                Node.js
               </div>
               <div className="w-fit h-fit px-1 py-1 m-1 border border-grayLight rounded text-white dark:text-grayLight font-Inter font-medium font-sm bg-[#2c3333]">
                 JavaScript
