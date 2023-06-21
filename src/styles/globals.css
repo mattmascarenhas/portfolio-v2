@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f1faf8;
+  color: #2c3333;
+}
+a {
+  text-decoration: none;
+  color: #2c3333;
+}
+button {
+  cursor: default;
+}
+span {
+  color: #395b64;
+}
