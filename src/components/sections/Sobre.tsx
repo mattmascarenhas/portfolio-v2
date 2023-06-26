@@ -9,10 +9,10 @@ export function Sobre() {
       <div className="lg:mb-12 mb-10 flex items-start justify-start ">
         <h2 className="font-extrabold text-3xl">SOBRE</h2>
       </div>
-      <div className="lg:grid grid-cols-3 ">
-        <div className="col-span-1 mt-20">
+      <div className="lg:grid grid-cols-3 items-center justify-center ">
+        <div className="col-span-1 ">
           <div className="flex flex-col justify-center items-center">
-            <div className="bg-[#aaa] rounded-[50%] w-[150px] h-[150px] overflow-hidden relative">
+            <div className="bg-[#aaa] rounded-[50%] w-[200px] h-[200px] overflow-hidden relative">
               <img
                 src="avatar.png"
                 alt=""
@@ -21,9 +21,9 @@ export function Sobre() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col col-span-2 items-center mt-8 lg:mt-20 ">
+        <div className="flex flex-col col-span-2 items-center mt-10 lg:mt-0 ">
           <div>
-            <p className="text-xl text-justify font-bold">
+            <p className="text-2xl text-justify font-bold">
               Sou desenvolvedor Full Stack, pós-graduado em Análise e
               Desenvolvimento de Programas, e em Projetos de Aplicativos Móveis
               Multiplataforma, com graduação em engenharia civil. Possuo alguns

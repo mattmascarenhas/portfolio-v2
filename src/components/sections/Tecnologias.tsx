@@ -1,7 +1,7 @@
 export function Tecnologias() {
   return (
-    <div className="lg:flex flex-col lg:mx-[200px] ">
-      <div className="lg:mb-32 mb-10 flex items-start justify-start ">
+    <div className="lg:flex flex-col lg:mx-[200px] mb-12">
+      <div className="lg:mb-12 mb-10 flex items-start justify-start ">
         <h2 className="font-extrabold text-3xl">TECNOLOGIAS</h2>
       </div>
       <div className="lg:grid grid-cols-3">

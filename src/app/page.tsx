@@ -11,31 +11,31 @@ export default function Home() {
       <PageWrapper>
         <section
           id="inicio"
-          className="min-h-[90vh] lg:min-h-[98vh] pt-32 relative lg:p-[65px] px-5 pb-5 flex flex-col justify-center h-[80vh] lg:h-[98vh] md:min-w-full md:min-h-full"
+          className="min-h-[90vh] lg:min-h-[auto] pt-24 relative lg:p-[65px] px-5 pb-5 flex flex-col justify-center h-[auto] lg:h-[auto] md:min-w-full md:min-h-full"
         >
           <Inicio />
         </section>
         <section
           id="portfolio"
-          className="min-h-[90vh] lg:min-h-[auto] pt-32 relative px-5 pb-5 flex flex-col justify-start h-[auto] lg:h-[auto] md:min-w-full md:min-h-full mt-20"
+          className=" bg-slate-50  min-h-[90vh] lg:min-h-[auto] pt-24 relative px-5 pb-5 flex flex-col justify-start h-[auto] lg:h-[auto] md:min-w-full md:min-h-full mt-20"
         >
           <Portfolio />
         </section>
         <section
           id="experiencia"
-          className="min-h-[90vh] lg:min-h-[auto] pt-28 relative px-5 pb-5 flex flex-col justify-start h-[auto] lg:h-[98vh] md:min-w-full md:min-h-full"
+          className="min-h-[90vh] lg:min-h-[auto] pt-24 relative px-5 pb-5 flex flex-col justify-start h-[auto] lg:h-[auto] md:min-w-full md:min-h-full"
         >
           <Experiencia />
         </section>
         <section
           id="tecnologias"
-          className="min-h-[90vh] lg:min-h-[98vh] pt-32 relative px-5 pb-5 flex flex-col justify-start h-[98vh] lg:h-[98vh] md:min-w-full md:min-h-full lg:mt-0"
+          className="bg-slate-50 min-h-[90vh] lg:min-h-[auto] pt-24  relative px-5 pb-5 flex flex-col justify-start h-[auto] lg:h-[auto] md:min-w-full md:min-h-full lg:mt-0"
         >
           <Tecnologias />
         </section>
         <section
           id="sobre"
-          className="min-h-[98vh] lg:min-h-[98vh] pt-32 relative px-5 pb-5 flex flex-col justify-start h-[98vh] lg:h-[98vh] md:min-w-full md:min-h-full lg:mt-0 mt-20"
+          className=" min-h-[auto] lg:min-h-[auto] pt-24 relative px-5 pb-5 flex flex-col justify-start h-[auto] lg:h-[auto] md:min-w-full md:min-h-full lg:mt-0 mt-20"
         >
           <Sobre />
         </section>

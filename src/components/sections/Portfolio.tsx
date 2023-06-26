@@ -1,6 +1,6 @@
 export function Portfolio() {
   return (
-    <div className="lg:flex flex-col lg:mx-[200px] items-start justify-start ">
+    <div className="lg:flex flex-col lg:mx-[200px] items-start justify-start  mb-12">
       <div className="mb-10">
         <h2 className="font-extrabold text-3xl">PORTFÓLIO</h2>
       </div>

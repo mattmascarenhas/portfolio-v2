@@ -1,10 +1,10 @@
 export function Experiencia() {
   return (
-    <div className="lg:flex flex-col lg:mx-[200px] items-start justify-start ">
-      <div className="mb-10">
+    <div className="lg:flex flex-col lg:mx-[200px] items-start justify-start  mb-6">
+      <div className="mb-6">
         <h2 className="font-extrabold text-3xl">EXPERIÊNCIA</h2>
       </div>
-      <div className="lg:grid grid-cols-3 gap-6 ">
+      <div className="lg:grid grid-cols-3 gap-6 mb-6">
         <div>
           <div className="col-span-1 uppercase text-red-500 font-bold  border border-grayLight p-2">
             Criação de sistema para escritório de advocácia
