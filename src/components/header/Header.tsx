@@ -10,23 +10,9 @@ import Dropdown from "../utils/Dropdown";
 import CloseButton from "../icons/Close";
 
 export function Header() {
-  const [scrolled, setScrolled] = useState(false);
   const headerRef = useRef(null);
   const [showMenu, setShowMenu] = useState(false);
   const nodeRef = useRef(null);
-
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      if (window.scrollY > 20) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
-    });
-    return () => {
-      window.removeEventListener("scroll", () => {});
-    };
-  }, []);
 
   const scrollToSection = (sectionId: string) => {
     const section = document.getElementById(sectionId);
@@ -39,9 +25,7 @@ export function Header() {
 
   return (
     <div
-      className={`flex items-center justify-between lg:px-[200px] pr-[16px] fixed top-0 left-0 w-[100%] z-[100] pb-4${
-        scrolled ? " bg-[#243030] " : ""
-      }`}
+      className={`flex items-center justify-between lg:px-[80px] pr-[16px] fixed top-0 left-0 w-[100%] z-[100] py-4 bg-[#222222]`}
     >
       <Link
         activeClass="active"
@@ -52,22 +36,18 @@ export function Header() {
         style={{ cursor: "pointer" }}
       >
         <div className="flex lg:gap-5 gap-2 items-center mx-4 mt-3 cursor-default ">
-          <Logo fill={`${scrolled ? `#ffffff` : "#2c3333"}`} />
+          <Logo fill={`#ffffff`} />
           <h1
-            className={`hidden lg:flex lg:text-3xl lg:font-extrabold ${
-              scrolled ? "text-[#ffff]" : ""
-            }`}
+            className={`hidden lg:flex lg:text-3xl lg:font-extrabold text-[#ffff]`}
           >
             MATHEUS MASCARENHAS
           </h1>
-          <MatheusMascarenhasResponsive
-            fill={`${scrolled ? "#ffff" : "#2C3333"}`}
-          />
+          <MatheusMascarenhasResponsive fill={`#ffff`} />
         </div>
       </Link>
       <div className="fixed right-0 pr-4 lg:hidden">
         <button className="p-1" onClick={() => setShowMenu(!showMenu)}>
-          <MenuIcon fill={`${scrolled ? "#ffff" : "#2C3333"}`} />
+          <MenuIcon fill={`#ffff`} />
         </button>
       </div>
       <CSSTransition
@@ -105,7 +85,7 @@ export function Header() {
             smooth={true}
             duration={200}
             style={{ cursor: "pointer" }}
-            className={`${scrolled ? "text-[#ffff]" : ""}`}
+            className={"text-[#ffff]"}
           >
             ínicio
           </Link>
@@ -118,7 +98,7 @@ export function Header() {
             smooth={true}
             duration={200}
             style={{ cursor: "pointer" }}
-            className={`${scrolled ? "text-[#ffff]" : ""}`}
+            className={"text-[#ffff]"}
           >
             portfólio
           </Link>
@@ -134,7 +114,7 @@ export function Header() {
             smooth={true}
             duration={200}
             style={{ cursor: "pointer" }}
-            className={`${scrolled ? "text-[#ffff]" : ""}`}
+            className={"text-[#ffff]"}
           >
             experiência
           </Link>
@@ -147,7 +127,7 @@ export function Header() {
             smooth={true}
             duration={200}
             style={{ cursor: "pointer" }}
-            className={`${scrolled ? "text-[#ffff]" : ""}`}
+            className={"text-[#ffff]"}
           >
             tecnologias
           </Link>
@@ -160,7 +140,7 @@ export function Header() {
             smooth={true}
             duration={200}
             style={{ cursor: "pointer" }}
-            className={`${scrolled ? "text-[#ffff]" : ""}`}
+            className={"text-[#ffff]"}
           >
             sobre
           </Link>

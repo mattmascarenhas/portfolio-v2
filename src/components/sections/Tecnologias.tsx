@@ -19,10 +19,9 @@ export function Tecnologias() {
               complexos e criar soluções inovadoras.
             </p>
             <p>
-              · Com minhas habilidades em desenvolvimento web, incluindo HTML,
-              CSS, JavaScript, React, Node.js, MySQL, C#, ASP.NET e SQL Server,
-              estou preparado para enfrentar desafios complexos no
-              desenvolvimento de software.
+              · Com minhas habilidades em desenvolvimento back-end, estou
+              preparado para enfrentar desafios complexos na criação de APIs
+              RESTful, bem como integrações com APIs existentes.
             </p>
           </div>
         </div>

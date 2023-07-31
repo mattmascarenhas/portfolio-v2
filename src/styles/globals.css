@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 body {
-  background-color: #f1faf8;
-  color: #2c3333;
+  background-color: #222222;
+  color: #f1faf8;
 }
 a {
   text-decoration: none;
-  color: #2c3333;
+  color: #e7f6f2;
 }
 button {
   cursor: default;

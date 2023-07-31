@@ -4,7 +4,7 @@ export function WhatsAppIcon(props: any) {
       xmlns="http://www.w3.org/2000/svg"
       width="40"
       height="40"
-      fill={props.fill || "#2c3333"}
+      fill={props.fill || "#f1faf8"}
       viewBox="0 -8 20 40"
     >
       <path

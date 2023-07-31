@@ -24,12 +24,13 @@ export function Sobre() {
         <div className="flex flex-col col-span-2 items-center mt-10 lg:mt-0 ">
           <div>
             <p className="text-2xl text-justify font-bold">
-              Sou desenvolvedor Full Stack, pós-graduado em Análise e
-              Desenvolvimento de Programas, e em Projetos de Aplicativos Móveis
-              Multiplataforma, com graduação em engenharia civil. Possuo alguns
-              trabalhos, onde neles utilizo o React para o Front-End, Asp.net e
-              SQL Server para a criação da API. Também já trabalhei com o
-              Node.js e MySQL, onde tenho projetos construídos com essas
+              Sou um desenvolvedor back-end especializado em C#/Asp.net e SQL
+              Server. Minha experiência inclui a criação de APIs RESTful, bem
+              como integrações com APIs existentes. Com formação em Engenharia
+              Civil e pós-graduações em Análise e Desenvolvimento de Programas e
+              Projetos de Aplicativos Móveis Multiplataforma. Quando necessário
+              um front-end, utilizo o React/Typescript. Também já trabalhei com
+              o Node.js e MySQL, onde tenho projetos construídos com essas
               tecnologias.
             </p>
           </div>
