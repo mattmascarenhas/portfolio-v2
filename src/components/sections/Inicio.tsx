@@ -12,7 +12,11 @@ export function Inicio() {
   return (
     <div className="lg:flex lg:mx-[200px] gap-4 items-center justify-between lg:mt-24 ">
       <div className="">
-        <PlanetIndex />
+        <img
+          src="PlanetIndex.png"
+          alt=""
+          className="lg:w-[1200px] w-[400px] mt-6 lg:mt-0"
+        />
       </div>
       <div className="flex flex-col">
         <div className="flex flex-col">

@@ -8,8 +8,8 @@ export function Experiencia() {
       <div className="w-full my-4">
         <div className="lg:grid grid-cols-7 gap-6 mt-6 ">
           <div className="col-span-3">
-            <div className="w-[480px]  uppercase text-[#007CED] font-bold  border border-grayLight p-2 mr-20 ">
-              Criação de sistema para escritório de advocácia
+            <div className="w-[370px]  uppercase text-[#007CED] font-bold  border border-grayLight p-2 mr-20 ">
+              Sistema para escritório de advocácia
             </div>
           </div>
           <div className="col-span-4 flex justify-start flex-col">
@@ -70,8 +70,8 @@ export function Experiencia() {
       <div className="w-full border-t border-black my-4">
         <div className="lg:grid grid-cols-7 gap-6 mt-6 ">
           <div className="col-span-3">
-            <div className="w-[400px] uppercase text-[#007CED] font-bold  border border-grayLight p-2 mr-20 ">
-              Criação de API para sistema de advocacia
+            <div className="w-[300px] uppercase text-[#007CED] font-bold  border border-grayLight p-2 mr-20 ">
+              API para sistema de advocacia
             </div>
           </div>
           <div className="col-span-4  flex justify-start flex-col">
