@@ -36,7 +36,7 @@ export function Header() {
         style={{ cursor: "pointer" }}
       >
         <div className="flex lg:gap-5 gap-2 items-center mx-4 mt-3 cursor-default ">
-          <Logo fill={`#ffffff`} />
+          <Logo fill={`#007CED`} />
           <h1
             className={`hidden lg:flex lg:text-3xl lg:font-extrabold text-[#ffff]`}
           >
