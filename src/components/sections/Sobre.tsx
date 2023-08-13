@@ -6,7 +6,7 @@ import WhatsAppIcon from "../icons/Whatsapp";
 export function Sobre() {
   return (
     <div>
-      <div className="lg:mb-12 mb-10 flex items-start justify-start bg-[#252525] w-full  border-t border-b border-[#838383] my-4">
+      <div className="lg:mb-12 mb-10 flex items-start justify-center lg:justify-start bg-[#252525] w-full  border-t border-b border-[#838383] my-4">
         <h2 className="font-extrabold text-3xl mx-24 py-16 ">SOBRE</h2>
       </div>
       <div className="lg:flex flex-col lg:mx-[200px] ">
@@ -24,7 +24,7 @@ export function Sobre() {
           </div>
           <div className="flex flex-col col-span-2 items-center mt-10 lg:mt-0 ">
             <div>
-              <p className="text-2xl text-justify font-bold">
+              <p className="text-2xl text-justify font-bold p-3">
                 Sou um desenvolvedor back-end especializado em C#/Asp.net e SQL
                 Server. Minha experiência inclui a criação de APIs RESTful, bem
                 como integrações com APIs existentes. Com formação em Engenharia

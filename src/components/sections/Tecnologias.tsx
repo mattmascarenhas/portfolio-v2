@@ -1,10 +1,10 @@
 export function Tecnologias() {
   return (
     <div>
-      <div className="lg:mb-12 mb-10 flex items-start justify-start bg-[#252525] w-full  border-t border-b border-[#838383] my-4 ">
+      <div className="lg:mb-12 mb-10 flex items-start justify-center lg:justify-start bg-[#252525] w-full  border-t border-b border-[#838383] my-4 ">
         <h2 className="font-extrabold text-3xl mx-24 py-16 ">TECNOLOGIAS</h2>
       </div>
-      <div className="lg:flex flex-col lg:mx-[200px] mb-12">
+      <div className="lg:flex flex-col lg:mx-[200px] mb-12 px-2">
         <div className="lg:grid grid-cols-3">
           <div className="col-span-1">
             <div className="flex flex-col mt-2 gap-8 font-bold text-justify">
@@ -73,9 +73,6 @@ export function Tecnologias() {
                 <div className="flex">
                   <div className="w-fit h-fit px-1 py-1 m-1 border border-grayLight rounded text-white dark:text-grayLight font-Inter font-medium font-sm bg-[#2c3333]">
                     Node.js
-                  </div>
-                  <div className="w-fit h-fit px-1 py-1 m-1 border border-grayLight rounded text-white dark:text-grayLight font-Inter font-medium font-sm bg-[#2c3333]">
-                    Vite
                   </div>
                   <div className="w-fit h-fit px-1 py-1 m-1 border border-grayLight rounded text-white dark:text-grayLight font-Inter font-medium font-sm bg-[#2c3333]">
                     MySQL

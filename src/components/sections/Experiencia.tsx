@@ -1,19 +1,19 @@
 export function Experiencia() {
   return (
     <div>
-      <div className="mb-6 bg-[#252525] w-full  border-t border-b border-[#838383] my-4">
+      <div className="mb-6 bg-[#252525] w-full justify-center lg:justify-start border-t border-b border-[#838383] my-4">
         <h2 className="font-extrabold text-3xl mx-24 py-16 ">EXPERIÊNCIA</h2>
       </div>
-      <div className="lg:flex flex-col lg:mx-[200px] items-start justify-start  mb-6">
+      <div className="lg:flex flex-col lg:mx-[200px] items-start justify-start mb-6 pl-1">
         {/* distribuição automatica */}
         <div className="w-full my-4">
           <div className="lg:grid grid-cols-7 gap-6 mt-6 ">
             <div className="col-span-3">
-              <div className="w-[384px] uppercase text-[#007CED] font-bold  border border-grayLight p-2 mr-20 ">
+              <div className="w-[384px] uppercase text-[#007CED] font-bold  border border-grayLight p-2 mr-20">
                 Integração/Criação/Manutenção de API
               </div>
             </div>
-            <div className="col-span-4 flex justify-start flex-col">
+            <div className="col-span-4 flex justify-start flex-col mt-4 lg:mt-0">
               <h1 className="lg:text-3xl text-2xl font-bold">
                 Desenvolvedor Back-End
               </h1>
@@ -58,7 +58,7 @@ export function Experiencia() {
                 API para sistema de advocacia
               </div>
             </div>
-            <div className="col-span-4  flex justify-start flex-col">
+            <div className="col-span-4  flex justify-start flex-col mt-4 lg:mt-0">
               <h1 className="lg:text-3xl text-2xl font-bold">
                 Desenvolvedor Back-End
               </h1>
@@ -106,7 +106,7 @@ export function Experiencia() {
                 Sistema para escritório de advocácia
               </div>
             </div>
-            <div className="col-span-4 flex justify-start flex-col">
+            <div className="col-span-4 flex justify-start flex-col mt-4 lg:mt-0">
               <h1 className="lg:text-3xl text-2xl font-bold">
                 Desenvolvedor Full Stack
               </h1>
