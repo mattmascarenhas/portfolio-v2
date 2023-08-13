@@ -25,8 +25,7 @@ export function Inicio() {
             <h1 className="text-5xl font-bold">Matheus Mascarenhas</h1>
             <p className="text-justify mb-16 text-xl">
               Desenvolvedor back-end especializado em C#/Asp.net e SQL Server,
-              com experiência em criação de APIs RESTful e integrações com APIs
-              existentes.
+              com experiência em criação e integração de APIs RESTful.
             </p>
           </div>
           <div className="flex flex-col mt-7 justify-center items-center ">
