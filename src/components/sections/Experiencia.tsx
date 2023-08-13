@@ -40,7 +40,8 @@ export function Experiencia() {
               <div>
                 <div className="flex flex-col mt-2 gap-2 font-bold">
                   <p>
-                    · Criação de soluções fazendo integrações em diversas API's.
+                    · Criação de soluções fazendo integrações em diversas API
+                    {"`"}s.
                   </p>
                   <p>· Google Cloud Platform para manter as integrações.</p>
                   <p>· Manutenção nas integrações.</p>
